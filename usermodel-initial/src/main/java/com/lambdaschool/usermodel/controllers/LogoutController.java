@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import javax.servlet.http.HttpServletRequest;
 
+// Comment here
 /**
  * The application implements its own logout endpoint. This works by removing the authentication token for the user.
  */
