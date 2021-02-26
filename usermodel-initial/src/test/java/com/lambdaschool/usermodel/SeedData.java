@@ -24,13 +24,13 @@ import java.util.Locale;
  * after the application context has been loaded.
  */
 @Transactional
-@Component
 @ConditionalOnProperty(
         prefix = "command.line.runner",
         value = "enabled",
         havingValue = "true",
         matchIfMissing = true
 )
+@Component
 public class SeedData
     implements CommandLineRunner
 {
